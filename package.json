@@ -1,0 +1,31 @@
+{
+  "name": "cryptochain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.0.0",
+    "mocha": "~1.10.0",
+    "nodemon": "^1.18.4",
+    "supervisor": "~0.5.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "canvas": "^2.6.0",
+    "express": "^4.16.3",
+    "hex-to-binary": "^1.0.1",
+    "pubnub": "^4.21.6",
+    "redis": "^2.8.0",
+    "run-auto": "^2.0.3",
+    "run-parallel": "^1.1.9"
+  },
+  "description": ""
+}
